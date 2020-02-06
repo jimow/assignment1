@@ -1,5 +1,102 @@
+/******************************************************************GENERAL*********************************************************************************/
+
+body {
+    background: white;
+    color: #888;
+     font-family: 'Roboto', sans-serif;
+}
+.top-bar {
+    background-color: transparent;
+    color: white;
+}
+.top-bar h2 {
+    background-color: transparent;
+    color: white;
+}
+.top-bar-right a {
+    color: white;
+}
+
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 16.3em
+    }
+}
+@-moz-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 16.3em
+    }
+}
+@-webkit-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+@-moz-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+body {
+    font-family: Consolas, monospace;
+}
+
+.mycart {
+   background-image: url(../css/assets/cart.png);
+   height:5%;
+}
+
+/*end of it */
+
 .headers-section {
-	background-image: url(../images/hero.jpg);
-	background-size: 99% 99%;
-	height: 440px;
+    background-image: url(../css/assets/backgrounds/hero.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.headers-section h4 {
+    margin-top: 14%;
+    font-size: 4em;
+    color: white;
+}
+.headers-section h6 {
+    color: white;
+    margin-top: 5%;
+}
+.arrowb img {
+    margin-top: 13%;
+    margin-bottom: 5%;
+}
+.product-grid {
+    border: 1px solid;
+    width: 30%;
+
+
+}
+.showproducts {
+    padding-top: 2%;
+    /*    padding-bottom: 2%;*/
+    background-color: bisque;
+}
+.productw {
+
+     border: 1px solid;
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+    padding-top: 6%;
 }
