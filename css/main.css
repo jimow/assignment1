@@ -4,6 +4,7 @@ body {
     background: white;
     color: #888;
      font-family: 'Roboto', sans-serif;
+     float: cen;
 }
 .top-bar {
     background-color: transparent;
@@ -64,7 +65,7 @@ body {
 .myfooter {
 
  background-image: url(../css/assets/backgrounds/about.jpg);
-   height:45%;
+height:auto;
 }
 
 .headers-section {
@@ -176,7 +177,47 @@ body {
         position: relative;
         background-color: #e6de08;
     }
+.inlinehr {
+    display:block;
+    width:75%;
+}
+.men{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hr1 {
+   height: 2px;
+    width: 100%;
+    margin-left: 3rem;
+    background: #CBCBCB; 
+}
 
+
+.products {
+    width:28%;
+    float:left;
+    background-color:#E0F8D9;
+    margin:10px;
+    padding:5px;
+   
+}
+.hero{
+   background-image: url('../images/about.jpg');
+   background-size: 100% 100%;
+   padding: 5%;
+    color: white;
+    font-size:25px;
+}
+.products:hover {
+    border:solid 1px blue;
+}
+.imgcls {
+    height:150px;
+    width:100px;
+    text-align:center;
+    margin-left:30px;
+}
 #ads .ad-btn:hover {
             background-color: #e6de08;
             color: #1e1717;
@@ -190,3 +231,55 @@ body {
         text-transform: uppercase;
         font-size: 18px;
     }
+.infooter {
+    margin: 20px 0 20px 0;
+	font-size:10px;
+	text-align:center;
+	width:33.33%;
+	float: left;
+    padding:20px;
+	color: white;
+	text-align:center;
+}
+fieldset {
+    border: 2px solid #C0C0C0;
+   height: 25%;
+   width: 50%;
+   /* position: relative; */
+   margin-left: auto;
+   margin-right: auto;
+   /* margin-top: 50px; */
+}
+.twitter-footer {
+
+
+ background-color: #C0C0C0;
+    color: white;
+    text-align: center;
+   
+    padding: 1%;
+    
+}
+footer{
+    background-color: #696969;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+/* Clear floats after the columns */
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footerdiv {
+    width:33.3%;
+    float:left;
+}
+legend {
+    text-align: center;
+}
+fieldset p{
+   text-align: center;
+}
