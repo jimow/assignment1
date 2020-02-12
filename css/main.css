@@ -140,7 +140,108 @@ height:auto;
         font-size: 14px;        
     }
 
-   
+ .next-scroll
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #AC9E7C
+}
+
+.products-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+}
+/*card*/
+.item
+{
+    width: 300px;
+    height: 400px;
+    background: #f5f5f7;
+    justify-self: center;
+    border: 2px white solid;
+
+    display: grid;
+    grid-template-rows: 10% 70% 20%
+}
+.item:hover
+{
+    border: 2px #a99b76 solid;
+    cursor: pointer;
+}
+.item img
+{
+    align-self: center;
+    justify-self: center;
+    height: 70%;
+}
+.item-name
+{
+    color: #C7BFAA
+}
+
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.circles p
+{
+    display: inline-block
+}
+
+.bottom 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+/*women section */
+#women .wrapper
+{
+    margin: 4rem 0 2rem 0;
+}
+
+#women .next-scroll
+{
+    align-items: flex-start;
+}
+
+/* cirlces */
+.circle
+{
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+}
+
+.green
+{
+    background: green;
+}
+.grey
+{
+    background: #535154;
+}
+.blue
+{
+    background: blue;
+}
+.white
+{
+    background: white
+}
+.pink
+{
+    background: #D4A7AC
+}  
 
 #ads .card:hover {
             background: #fff;
@@ -192,8 +293,53 @@ height:auto;
     margin-left: 3rem;
     background: #CBCBCB; 
 }
-
-
+.sec {
+    float:left;
+    display:inline-block;
+}
+ .btn {
+     background-color: #661a00;
+     color: white;
+     border-radius: 2px;
+     height: 50px;
+     text-transform: uppercase;
+ }
+.btnproduct {
+    float:right;
+    display:inline-block;
+}
+  .checkmark {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 25px;
+     width: 25px;
+     background-color: #eee;
+     border: 3px solid #8f8260;
+     border-radius: 2px;
+ }
+ .container_check {
+     display: inline;
+     position: relative;
+     padding-left: 35px;
+     cursor: pointer;
+     font-size: 22px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+.secbtnproduct {
+   
+    background-color:#45FE9E;
+    background-size:100% 100%;
+   
+}
+.categories {
+    margin: 0;
+     border-radius: 0;
+     background-color: #c6bfa5;
+}
 .products {
     width:28%;
     float:left;
